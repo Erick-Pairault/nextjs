@@ -40,7 +40,7 @@ export default function Home() {
 
         <div className={styles.center}>
           <p>
-            Hi, I'm <span style={{ color: 'maroon'}}>Erick </span>
+            Hi, my name is <span style={{ color: 'maroon'}}>Erick </span>
             <span style = {{display: 'block' }}></span>Currently a Junior at Washington State University
           </p>
         </div>
