@@ -14,25 +14,24 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
           <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>pages/index.js</code>
+            Welcome to my website CSE 223!
           </p>
           <div>
             <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+              href="https://www.instagram.com/allart.drawings/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              By{' '}
               <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={50000}
-                height={500}
+                src="/assets/EP Logo.png"
+                //alt="Vercel Logo"
+                //className={styles.vercelLogo}
+                width={85}
+                height={85}
                 priority
               />
             </a>
@@ -40,71 +39,58 @@ export default function Home() {
         </div>
 
         <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={500}
-            height={500}
-            priority
-          />
+          <p>
+            Hi, I'm <span style={{ color: 'maroon'}}>Erick </span>
+            <span style = {{display: 'block' }}></span>Currently a Junior at Washington State University
+          </p>
+        </div>
+
+        <div>
+          <p>
+            This is my first website, and is still a work in progress. Below I have some links to help introduce myself.
+          </p>
         </div>
 
         <div className={styles.grid}>
           <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://www.linkedin.com/in/erick-pairault-17252b264/"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2>
-              Docs <span>-&gt;</span>
+              About Me <span>-&gt;</span>
             </h2>
             <p>
-              Pee.
+              Visit my Linked-In page to get connected with me and see more about me.
             </p>
           </a>
 
           <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://github.com/Erick-Pairault"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2>
-              Learn <span>-&gt;</span>
+              Projects <span>-&gt;</span>
             </h2>
             <p>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
+              Check out my GitHub to see some of my projects.
             </p>
           </a>
 
           <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://www.youtube.com/@Eric-YT-Tutorials"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2>
-              Templates <span>-&gt;</span>
+              Tutorial <span>-&gt;</span>
             </h2>
             <p>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Deploy <span>-&gt;</span>
-            </h2>
-            <p>
-              Pee pee able URL
-              with&nbsp;Vercel.
+              Check out my YouTube channel where I give a set-by-step on how I got this far!
             </p>
           </a>
         </div>
